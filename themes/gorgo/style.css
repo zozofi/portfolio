@@ -59,12 +59,12 @@ body.loaded,
     opacity: 1;
 }
 a, a:visited {
-    color: #90D4C5;
+    color: #000000;
     text-decoration: none;
     transition: color 0.1s ease-in-out;
 }
 a:hover, a:active {
-    color: #2c2c2c;
+    color: #90D4C5;
     text-decoration: none;
 }
 
@@ -1339,5 +1339,7 @@ nav[role="navigation"] {
     h6 {
         font-size: 1rem;
     }
-
+    #contact .card:hover i,#contact .card:hover h4{
+        color: #87d37c;
+    }
 }
