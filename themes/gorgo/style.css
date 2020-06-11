@@ -28,6 +28,13 @@ Description: A template by Aristotheme.
 /* Reset & Clearfix Styles
 /*=================================*/
 
+@font-face {
+font-family: 'Righteous';
+font-style: normal;
+font-weight: normal;
+src: local('Righteous Regular'), url('font/Righteous/Righteous-Regular.woff') format('woff');
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
     padding: 0;
@@ -1216,9 +1223,7 @@ nav[role="navigation"] {
 /* Media Queries
 /*=================================*/
 
-
-@media only screen and (min-width: 401px) {
-
+@media only screen and (min-width: 600px) {
     /*===== Titles =====*/
     .site-tagline p {
         font-size: 28px;
@@ -1277,11 +1282,6 @@ nav[role="navigation"] {
     .site-footer {
         padding: 40px
     }
-
-}
-
-@media only screen and (min-width: 600px) {
-
     /*===== Structures =====*/
     .site-header,
     .page-desc {
@@ -1667,19 +1667,19 @@ nav[role="navigation"] {
         font-size: 1rem;
     }
 
-    #contact .card:hover i, #contact .card:hover h4 {
-        color: #87d37c;
-    }
+}
 
-    .contact-href, .contact-href:visited {
-        color: #000000;
-        text-decoration: none;
-        transition: color 0.1s ease-in-out;
-    }
+#contact .card:hover i, #contact .card:hover h4 {
+    color: #87d37c;
+}
 
-    .contact-href:hover, .contact-href:active {
-        color: #90D4C5;
-        text-decoration: none;
-    }
+.contact-href, .contact-href:visited {
+    color: #000000; !important;
+    text-decoration: none;
+    transition: color 0.1s ease-in-out;
+}
 
+.contact-href:hover, .contact-href:active {
+    color: #90D4C5;!important;
+    text-decoration: none;
 }
