@@ -1142,6 +1142,11 @@ nav[role="navigation"] {
     margin: 60px 0;
 }
 
+.page-pointers {
+    display: block;
+    margin-bottom: 200px;
+}
+
 .page-desc li {
     list-style-type: disc;
     margin-left: 60px;
